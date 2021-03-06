@@ -1,7 +1,16 @@
 # grpc_routeguide
 
+## to run
 
-## gRPC lets you define four kinds of service methods, all of which are used in the `RouteGuide` service:
+```bash
+$ cargo run --bin routeguide-server
+```
+
+```bash
+$ cargo run --bin routeguide-client
+```
+
+### gRPC lets you define four kinds of service methods, all of which are used in the `RouteGuide` service:
 
 **1. `simple RPC (unary)`** 
 
